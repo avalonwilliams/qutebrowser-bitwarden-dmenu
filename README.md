@@ -8,3 +8,19 @@ Autofills webpage login from your bitwarden account information, selected from a
 * qutebrowser (obviously)
 * Standard UNIX utilities (sh, awk, sed, tr, etc...)
 * xdotool
+
+## Install
+Make the userscripts directory if it doesn't exist:
+```
+mkdir -P ~/.local/share/qutebrowser/userscripts
+```
+
+Copy the userscript to the userscript directory
+```
+cp bw-dmenu-fill ~/.local/share/qutebrowser/userscripts
+```
+
+Add a keybinding, for example, in my `~/.config/qutebrowser/config.py`, I have the script bound to `zl`:
+```
+config.bind('zl', 'spawn --userscript bw-dmenu-fill')
+```
