@@ -26,8 +26,8 @@ password=""
 
 output=$(bitwarden-dmenu \
     --bw-list-args="--url=$QUTE_URL" \
-    --dmenu-args="-l 5 -w $(xdotool getactivewindow)" \
-    --dmenu-pswd-args="-w $(xdotool getactivewindow)" \
+    --dmenu-args="-w $(xdotool getactivewindow)" \
+    --dmenu-pswd-args="-l 0 -password -w $(xdotool getactivewindow)" \
     --stdout)
 
 if [ ! -z "$output" ]; then

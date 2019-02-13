@@ -1,5 +1,6 @@
 # Qutebrowser Bitwarden Userscript
 Autofills webpage login from your bitwarden account information, selected from a dmenu menu.
+This branch has settings for users using rofi as a drop in replacement for dmenu
 
 ## Requirements
 * [bitwarden-dmenu](https://github.com/andykais/bitwarden-dmenu)
