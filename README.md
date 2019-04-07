@@ -1,3 +1,5 @@
+# [THIS PROJECT HAS BEEN MIGRATED TO GITLAB](https://gitlab.com/AGitBoy/qutebrowser-bitwarden-dmenu)
+
 # Qutebrowser Bitwarden Userscript
 Autofills webpage login from your bitwarden account information, selected from a dmenu menu. The [rofi branch](https://github.com/AGitBoy/qutebrowser-bitwarden-dmenu/tree/rofi) has some modifications made to the arguments for people who are using rofi as a drop-in replacement for dmenu.
 
